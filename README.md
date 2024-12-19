@@ -14,24 +14,5 @@ conda activate your_env_name
 pip install -r requirements.txt  
 Note: The environment may not work correctly for GPU on your computer. You could fix it by yourself.
 
-Directory structure
-To help you better understand the organization of the project, here is an overview of the project's directory structure.
-
-TmallRepurchasePrediction/   
-├── code #The main code part  
-│   └── model.ipynb  
-├── data  
-│   ├── data_format1  
-│   │   ├── test_format1.csv  
-│   │   ├── train_format1.csv  
-│   │   ├── user_info_format1.csv  
-│   │   └── user_log_format1.csv  
-│   └── data_format2  
-│       ├── test_format2.csv  
-│       └── train_format2.csv  
-├── README.md  
-├── requirements.txt  
-└── submission  
-    └── submission.csv # I have tested that the name of this file will not be check.  
-Data download
+# Data download
 You could download the datasets on https://tianchi.aliyun.com/competition/entrance/231576/information. Explanation of them is below the download link.
